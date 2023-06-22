@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:cc="http://web.resource.org/cc/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:podcast="https://podcastindex.org/namespace/1.0"
+	xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<channel>
+	<title>Sommarflörten</title>
+	<description>Häng med när Oskar Sandblom, Gustav Danielsson, Emil Walin och Nathan Habtegaber diskuterar sommarflörtens lagar och regler. Kommer de att hitta offer denna sommar? (nej)</description>
+	<language>sv-se</language>
+	<pubDate>Sat, 11 Jun 2022 22:23:18 +0300</pubDate>
+	<image>
+		<url>"https://sommar.norrland.xyz/img/coverart/cover1.png"</url>
+		<title>Sommarflörten</title>
+		<link>https://sommar.norrland.xyz</link>
+	</image>
+	<copyright>&#169; 2022 Oskar Sandblom, Nathan Habtegaber, Gustav Danielsson, Emil Wallin</copyright>
+	<itunes:owner>
+		<itunes:name>Oskar Sandblom, Nathan Habtegaber, Gustav Danielsson, Emil Wallin</itunes:name>
+		<itunes:email>countrygirlsmakedo@protonmail.com</itunes:email>
+	</itunes:owner>
+	<itunes:author>Oskar Sandblom, Nathan Habtegaber, Gustav Danielsson, Emil Wallin</itunes:author>
+	<itunes:image href="https://sommar.norrland.xyz/img/coverart/cover1.png"/>
+	<itunes:type>episodic</itunes:type>
+	<itunes:category text="Society &amp; Culture">
+		<itunes:category text="Relationships"/>
+	</itunes:category>
+	<itunes:explicit>false</itunes:explicit>
+	<link>https://sommar.norrland.xyz/Html/Avsnitt.html</link>
+	<atom:link href="https://sommar.norrland.xyz/rss.xml" rel="self" type="application/rss+xml" />
+
+<!-- LBP -->
+
+<item>
+<title>BASED eller CRINGE?</title>
+<guid isPermaLink="true">https://sommar.norrland.xyz/audio/S1E6.mp3</guid>
+<pubDate>Tue, 16 Aug 2022 17:02:33 +0200</pubDate>
+<description><![CDATA[
+<p>I dagens avsnitt diskuterar vi flörtkulturer och om de är BASED eller CRINGE. Nathan är fortfarande död.</p>
+]]></description>
+<content:encoded><![CDATA[
+<div class='content'>
+<img src='https://sommar.norrland.xyz/img/smallcoverart/cover6.jpg'>
+<p>I dagens avsnitt diskuterar vi flörtkulturer och om de är BASED eller CRINGE. Nathan är fortfarande död.</p>
+</div>
+<div class='Links'>
+<a href='https://sommar.norrland.xyz/audio/S1E6.mp3'>Ljudfil</a>
+<a href='https://sommar.norrland.xyz/torrent/S1E6.mp3.torrent'>Torrent</a>
+</div>
+]]></content:encoded>
+<enclosure length="88946365" type="audio/mpeg" url="https://sommar.norrland.xyz/audio/S1E6.mp3" />
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>3706</itunes:duration>
+<link>https://sommar.norrland.xyz/Html/Avsnitt.html#61</link>
+<itunes:image href="https://sommar.norrland.xyz/img/coverart/cover6.jpg"/>
+</item>
+
+
+<item>
+<title>Kvinnoflörten</title>
+<guid isPermaLink="true">https://sommar.norrland.xyz/audio/S1E5.95.mp3</guid>
+<pubDate>Mon, 18 Jul 2022 21:55:09 +0200</pubDate>
+<description><![CDATA[
+<p>I dagens <i>specialavsnitt</i> har vi mot all förmodan två kvinnor med oss som idag ersätter Oskar och Nathan, häng med när vi utforskar kvinnornas värld och får höra deras perspektiv på våran kära flört</p>
+]]></description>
+<content:encoded><![CDATA[
+<div class='content'>
+<img src='https://sommar.norrland.xyz/img/smallcoverart/cover5.95.jpg'>
+<p>I dagens <i>specialavsnitt</i> har vi mot all förmodan två kvinnor med oss som idag ersätter Oskar och Nathan, häng med när vi utforskar kvinnornas värld och får höra deras perspektiv på våran kära flört</p>
+</div>
+<div class='Links'>
+<a href='https://sommar.norrland.xyz/audio/S1E5.95.mp3'>Ljudfil</a>
+<a href='https://sommar.norrland.xyz/torrent/S1E5.95.mp3.torrent'>Torrent</a>
+</div>
+]]></content:encoded>
+<enclosure length="112292312" type="audio/mpeg" url="https://sommar.norrland.xyz/audio/S1E5.95.mp3" />
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>4679</itunes:duration>
+<link>https://sommar.norrland.xyz/Html/Avsnitt.html#5.951</link>
+<itunes:image href="https://sommar.norrland.xyz/img/coverart/cover5.95.jpg"/>
+</item>
+
+
+<item>
+<title>Relationer</title>
+<guid isPermaLink="true">https://sommar.norrland.xyz/audio/S1E5.mp3</guid>
+<pubDate>Wed, 13 Jul 2022 18:01:33 +0200</pubDate>
+<description><![CDATA[
+<p>I detta avsnitt pratas det om tidigare relationer och i gruppen syns två gäster som själva kallar sig för experter* inom området</p>
+]]></description>
+<content:encoded><![CDATA[
+<div class='content'>
+<img src='https://sommar.norrland.xyz/img/smallcoverart/cover5.jpg'>
+<p>I detta avsnitt pratas det om tidigare relationer och i gruppen syns två gäster som själva kallar sig för experter* inom området</p>
+</div>
+<div class='Links'>
+<a href='https://sommar.norrland.xyz/audio/S1E5.mp3'>Ljudfil</a>
+<a href='https://sommar.norrland.xyz/torrent/S1E5.mp3.torrent'>Torrent</a>
+</div>
+]]></content:encoded>
+<enclosure length="79777386" type="audio/mpeg" url="https://sommar.norrland.xyz/audio/S1E5.mp3" />
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>3324</itunes:duration>
+<link>https://sommar.norrland.xyz/Html/Avsnitt.html#51</link>
+<itunes:image href="https://sommar.norrland.xyz/img/coverart/cover5.jpg"/>
+</item>
+
+
+<item>
+<title>Konsten att fråga ut henne</title>
+<guid isPermaLink="true">https://sommar.norrland.xyz/audio/S1E4.mp3</guid>
+<pubDate>Fri, 01 Jul 2022 21:08:39 +0200</pubDate>
+<description><![CDATA[
+<p>I dagens avsnitt snackar gruppen om kanske den viktigaste frågan i hela sommarflörten, nämnligen HUR frågar man ut henne?</p>
+]]></description>
+<content:encoded><![CDATA[
+<div class='content'>
+<img src='https://sommar.norrland.xyz/img/smallcoverart/cover4.jpg'>
+<p>I dagens avsnitt snackar gruppen om kanske den viktigaste frågan i hela sommarflörten, nämnligen HUR frågar man ut henne?</p>
+</div>
+<div class='Links'>
+<a href='https://sommar.norrland.xyz/audio/S1E4.mp3'>Ljudfil</a>
+<a href='https://sommar.norrland.xyz/torrent/S1E4.mp3.torrent'>Torrent</a>
+</div>
+]]></content:encoded>
+<enclosure length="" type="audio/mpeg" url="https://sommar.norrland.xyz/audio/S1E4.mp3" />
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>3986</itunes:duration>
+<link>https://sommar.norrland.xyz/Html/Avsnitt.html#41</link>
+<itunes:image href="https://sommar.norrland.xyz/img/coverart/cover4.jpg"/>
+</item>
+
+
+<item>
+<title>HOT or NOT?</title>
+<guid isPermaLink="true">https://sommar.norrland.xyz/audio/S1E3.mp3</guid>
+<pubDate>Wed, 29 Jun 2022 22:43:32 +0200</pubDate>
+<description><![CDATA[
+<p>I det här avsnittet kommer vi att diskutera de många olika sortens tjejer man kan träffa under sommarflörten och tillsammans ska vi ta reda på sanningen om dem:  Are they HOT or NOT?</p>
+]]></description>
+<content:encoded><![CDATA[
+<div class='content'>
+<img src='https://sommar.norrland.xyz/img/smallcoverart/cover3.jpg'>
+<p>I det här avsnittet kommer vi att diskutera de många olika sortens tjejer man kan träffa under sommarflörten och tillsammans ska vi ta reda på sanningen om dem:  Are they HOT or NOT?</p>
+</div>
+<div class='Links'>
+<a href='https://sommar.norrland.xyz/audio/S1E3.mp3'>Ljudfil</a>
+<a href='https://sommar.norrland.xyz/torrent/S1E3.mp3.torrent'>Torrent</a>
+</div>
+]]></content:encoded>
+<enclosure length="77840145" type="audio/mpeg" url="https://sommar.norrland.xyz/audio/S1E3.mp3" />
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>3243</itunes:duration>
+<link>https://sommar.norrland.xyz/Html/Avsnitt.html#31</link>
+<itunes:image href="https://sommar.norrland.xyz/img/coverart/cover3.jpg"/>
+</item>
+
+
+<item>
+<title>Konsten att jaga</title>
+<guid isPermaLink="true">https://sommar.norrland.xyz/audio/S1E2.mp3</guid>
+<pubDate>Thu, 23 Jun 2022 17:39:44 +0200</pubDate>
+<description><![CDATA[
+<p>I andra avsnittet pratar gruppen om konsten att jaga. Inom avsnittet får vi även en återkomst av den ökände Vincent.</p>
+]]></description>
+<content:encoded><![CDATA[
+<div class='content'>
+<img src='https://sommar.norrland.xyz/img/smallcoverart/cover2.jpg'>
+<p>I andra avsnittet pratar gruppen om konsten att jaga. Inom avsnittet får vi även en återkomst av den ökände Vincent.</p>
+</div>
+<div class='Links'>
+<a href='https://sommar.norrland.xyz/audio/S1E2.mp3'>Ljudfil</a>
+<a href='https://sommar.norrland.xyz/torrent/S1E2.mp3.torrent'>Torrent</a>
+</div>
+]]></content:encoded>
+<enclosure length="51231848" type="audio/mpeg" url="https://sommar.norrland.xyz/audio/S1E2.mp3" />
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>3728</itunes:duration>
+<itunes:image href="https://sommar.norrland.xyz/img/coverart/cover2.jpg"/>
+<link>https://sommar.norrland.xyz/Html/Avsnitt.html#21</link>
+</item>
+
+
+<item>
+	<title>Flörtens begynnelse</title>
+	<guid isPermaLink="true">https://sommarflörten.com/audio/S1E1.mp3</guid>
+	<pubDate>Mon, 20 Jun 2022 00:49:22 +0200</pubDate>
+	<description>
+		<![CDATA[<p>I första avsnittet av Sommarflörten förklarar oskar flörtens regler samt frågar gruppen filosofiska frågor.</p>]]>
+	</description>
+	<content:encoded><![CDATA[
+	<div class='content'>
+	<img src='https://sommarflörten.com/img/smallcoverart/cover1.png'>
+	<p>I första avsnittet av Sommarflörten förklarar oskar flörtens regler samt frågar gruppen filosofiska frågor.</p>
+	</div>
+	<div class='Links'>
+	<a href='https://sommarflörten.com/audio/S1E1.mp3'>Ljudfil</a>
+	<a href='https://sommarflörten.com/torrent/S1E1.mp3.torrent'>Torrent</a>
+	</div>
+	]]></content:encoded>
+	<enclosure 
+		length="38693185"
+		type="audio/mpeg"
+		url="https://sommar.norrland.xyz/audio/S1E1.mp3"
+	/>
+	<itunes:episodeType>full</itunes:episodeType>
+	<itunes:duration>2870</itunes:duration>
+	<link>https://sommar.norrland.xyz/Html/Avsnitt.html#11</link>
+	<itunes:image href="https://sommar.norrland.xyz/img/coverart/cover1.png"/>
+</item>
+
+
+
+
+</channel>
+</rss>
