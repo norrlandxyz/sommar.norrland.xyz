@@ -9,7 +9,7 @@ rssfile="rss.xml"
 archivefile="$webdir/blog/.htaccess"
 #podfile="$webdir/blog/.podfile"
 audiodir="audio"
-#torrentdir="torrent"
+torrentdir="torrent"
 coverdir="img/coverart"
 smallcoverdir="img/smallcoverart"
 [ -z "$EDITOR" ] && EDITOR="vim"
@@ -50,9 +50,9 @@ newpost() { read -erp "Give a title for your post/episode:
 	" audiofile
 	echo "$audiofile" | grep -q "\"" && printf "Double quotation marks (\") are not allowed in audo files.\\n" && exit
 
-	#read -erp "Enter the name of your .torrent file: (e.g My-Podcast.torrent):
-	#" torrentfile
-	#echo "$torrentfile" | grep -q "\"" && printf "Double quotation marks (\") are not allowed in torrent files.\\n" && exit
+	read -erp "Enter the name of your .torrent file: (e.g My-Podcast.torrent):
+	" torrentfile
+	echo "$torrentfile" | grep -q "\"" && printf "Double quotation marks (\") are not allowed in torrent files.\\n" && exit
 
 	read -erp "Give the episode a short description:
 	" shortdesc
@@ -73,7 +73,7 @@ newpost() { read -erp "Give a title for your post/episode:
 
 	url="$(echo "$title" | iconv -cf UTF-8 -t ASCII//TRANSLIT | tr -d '[:punct:]' | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | sed "s/-\+/-/g;s/\(^-\|-\$\)//g")"
 
-	echo "AddDescription \"$title\" \"$shortdesc\" \"$audiofile\" \"$duration\" \"$cover\" \"$episode\" \"$season\" \"$url.html\" " >>  "$archivefile"|| { echo "Error: Is $archivefile writeable?"; exit; }
+	echo "AddDescription \"$title\" \"$torrentfile\" \"$shortdesc\" \"$audiofile\" \"$duration\" \"$cover\" \"$episode\" \"$season\" \"$url.html\" " >>  "$archivefile"|| { echo "Error: Is $archivefile writeable?"; exit; }
 	( [ -f "$webdir/blog/.drafts/$url.html" ] || [ -f "$webdir/blog/$url.html" ] ) && echo "There is already an existing draft or post of that same name/URL." && exit
 
 	printf "<div class='content'>\\n<img src='%s%s/%s'>\\n<p>%s</p>\\n</div>\\n<div class='Links'>\\n<a href='%s%s/%s'>Ljudfil</a>\\n</div>" "$website" "$smallcoverdir" "$cover" "$shortdesc" "$website" "$audiodir" "$audiofile" > "$webdir/blog/.drafts/$url.html"
@@ -97,7 +97,7 @@ publish() { \
 	delete draft
 	htaccessentry=$(grep "$basefile" "$archivefile")
 	realname="$(echo "$htaccessentry" | cut -d'"' -f2)"
-	#torrentfile="$(echo "$htaccessentry" | cut -d'"' -f4)"
+	torrentfile="$(echo "$htaccessentry" | cut -d'"' -f4)"
 	shortdesc="$(echo "$htaccessentry" | cut -d'"' -f6)"
 	audiofile="$(echo "$htaccessentry" | cut -d'"' -f8)"
 	duration="$(echo "$htaccessentry" | cut -d'"' -f10)"
@@ -117,7 +117,7 @@ printf "\\n<item>\\n<title>%s</title>\\n<guid isPermaLink=\"true\">%s%s/%s</guid
 	sed -i "/<!-- LBP -->/r $tmpdir/rss" "$rssfile"
 	sed -i "/<!-- LBP -->/r $tmpdir/index" "$indexfile"
 		sed -i "/ \"$base.html\"/d" "$archivefile" #deletes old archivefile entry
-		echo "AddDescription \"$realname\" \"$shortdesc\" \"$audiofile\" \"$duration\" \"$cover\" \"$episode\" \"$season\" \"$basefile\" #$rssdate" >> "$archivefile" #adds new archivefile entry, with datea
+		echo "AddDescription \"$realname\" \"$torrentfile\" \"$shortdesc\" \"$audiofile\" \"$duration\" \"$cover\" \"$episode\" \"$season\" \"$basefile\" #$rssdate" >> "$archivefile" #adds new archivefile entry, with datea
 		rm -f "$webdir/blog/.drafts/$chosen"
 	}
 
